@@ -1,0 +1,15 @@
+{
+  "id": "provisioning-vendor",
+  "name": "Vendor reseller (MarketConnect-style)",
+  "version": "0.1.0",
+  "kind": "provisioning",
+  "engine": "wasm",
+  "provides": "vendor_reseller",
+  "abi": "0.2.0",
+  "wasm": "addon.wasm",
+  "description": "addons.desc.provisioning.vendor_reseller",
+  "author": "MythicalSystems",
+  "permissions": ["provisioning.manage", "network.outbound"],
+  "capabilities": { "http": ["$server"], "secrets": ["api_key"] },
+  "settings": []
+}
