@@ -1,6 +1,6 @@
-# Vendor reseller (MarketConnect-style)
+# Vendor reseller
 
-Auto-provision Vendor reseller (MarketConnect-style) from PeltyCMS orders
+Auto-provision vendor catalog from PeltyCMS orders
 
 Official provisioning module for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
@@ -10,27 +10,26 @@ Providers who sell hosting, VPS, game panels or cloud and need auto-create on pa
 
 ## Features
 
-- Create services on **Vendor reseller (MarketConnect-style)** when the customer pays
+- Create services on **vendor catalog** when the customer pays
 - Suspend, unsuspend and terminate follow the Pelty service lifecycle
 - Map Pelty products to packages / plans on the remote panel
 - API tokens stay in Pelty secrets
-- MythicCloud panel linking for authenticated installs
 
 ## How it works
 
-1. Install **Vendor reseller (MarketConnect-style)** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-vendor) inside Pelty Admin → Addons.
-2. Open Pelty Admin → Products, map a product to the Vendor reseller (MarketConnect-style) module, and save API credentials.
-3. Customers hit checkout / login / order flow as usual — Vendor reseller (MarketConnect-style) runs in the background.
+1. Install **Vendor reseller** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-vendor) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Products, map a product to the vendor catalog module, and save API credentials.
+3. Customers hit checkout / login / order flow as usual — vendor catalog runs in the background.
 
 ## Requirements
 
 - PeltyCMS with WASM addons enabled
-- Working Vendor reseller (MarketConnect-style) credentials
+- Working vendor catalog credentials
 - Outbound HTTPS from your panel
 
 ## Get it
 
-**[Vendor reseller (MarketConnect-style) on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-vendor)**
+**[Vendor reseller on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-vendor)**
 
 ## Support
 
